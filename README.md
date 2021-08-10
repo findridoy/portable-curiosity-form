@@ -1,24 +1,34 @@
 # portable-curiosity-form
 
-## Project setup
+## How to use
+
+### First clone and do
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+
 
 ### Compiles and minifies for production
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
+Copy the file from dist/js/app.min.js and paste it your project \
+Rename it to your desired name then link it to your html file
+
+```html
+<script src="link/to/form-js-file.js"></script>
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Prepare your html
+Add this line to your html file 
+```html
+<div id="curiosityForm" data-url="/url/to/store/message"></div>
+```
+
+
+
+
+
